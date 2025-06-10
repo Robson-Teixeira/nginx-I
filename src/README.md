@@ -43,3 +43,5 @@ O arquivo de configuração do Nginx geralmente está localizado em `/etc/nginx/
         - `location / { ... }` bloco de configuração para a localização raiz
         - `root /var/www/html;` diretório raiz onde os arquivos estão localizados
         - `index index.html index.htm;` arquivo padrão a ser servido
+
+> Proxy reverso é uma técnica onde um servidor atua como intermediário para solicitações de clientes, encaminhando-as para outro servidor. O Nginx pode ser configurado como um proxy reverso para encaminhar solicitações para um servidor de aplicativos, como Node.js, Python, etc. Além disso, o Nginx pode ser usado para balanceamento de carga, cache de conteúdo estático e muito mais.
