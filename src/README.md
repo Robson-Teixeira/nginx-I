@@ -23,6 +23,8 @@ Para Windows, você pode baixar o Nginx do site oficial: [nginx.org](https://ngi
 - `stop nginx` parar o Nginx
 - `restart nginx` reiniciar o Nginx
 - `nginx -h` exibir ajuda do Nginx
+- `nginx -s reload` recarregar a configuração do Nginx sem parar o serviço
+- `nginx -t` testar a configuração do Nginx para verificar se há erros
 
 ## Configuração
 O arquivo de configuração do Nginx geralmente está localizado em `/etc/nginx/nginx.conf` no Linux e MacOS, e no diretório onde o Nginx foi instalado no Windows.
