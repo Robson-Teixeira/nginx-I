@@ -45,3 +45,5 @@ O arquivo de configuração do Nginx geralmente está localizado em `/etc/nginx/
         - `index index.html index.htm;` arquivo padrão a ser servido
 
 > Proxy reverso é uma técnica onde um servidor atua como intermediário para solicitações de clientes, encaminhando-as para outro servidor. O Nginx pode ser configurado como um proxy reverso para encaminhar solicitações para um servidor de aplicativos, como Node.js, Python, etc. Além disso, o Nginx pode ser usado para balanceamento de carga, cache de conteúdo estático e muito mais.
+
+> API Gateway é um padrão de design que atua como um ponto de entrada único para um conjunto de serviços. O Nginx pode ser configurado como um API Gateway para gerenciar solicitações, autenticação, roteamento e outras funcionalidades relacionadas a APIs.
